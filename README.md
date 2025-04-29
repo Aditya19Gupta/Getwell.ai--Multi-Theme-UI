@@ -1,17 +1,19 @@
 # Welcome to your Getwell.ai ulti Theme UI
 ## Project info
-
+This is the clone for Getwell.ai webapp with additonal functionality of multi-theme UI, like there is different theme for different type of patient and medical specialities 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/Aditya19Gupta/Getwell.ai--Multi-Theme-UI.git
 
-# Navigate to the project directory
-cd <project-name>
-
+```
 # Install dependencies
+```bash
 npm install
-
+```
 # Start the development server
+```bash
 npm run dev
+```
+## Thank you!!
