@@ -1,6 +1,9 @@
 # Welcome to your Getwell.ai ulti Theme UI
 ## Project info
 This is the clone for Getwell.ai webapp with additonal functionality of multi-theme UI, like there is different theme for different type of patient and medical specialities 
+
+## Live Project url 
+https://getwell-ai-multi-theme-ui.vercel.app/
 ### Installation
 
 ```bash
