@@ -1,0 +1,148 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Default Theme */
+  :root {
+    --radius: 0.5rem;
+
+    /* Default Theme Colors */
+    --background: #ffffff;
+    --foreground: #1A1F2C;
+    --primary: #3b82f6;
+    --primary-foreground: #ffffff;
+    --secondary: #f1f5f9;
+    --secondary-foreground: #1e293b;
+    --accent: #dbeafe;
+    --accent-foreground: #1e40af;
+    --muted: #f1f5f9;
+    --muted-foreground: #64748b;
+    --card: #ffffff;
+    --card-foreground: #1A1F2C;
+    --border: #e2e8f0;
+    --input: #e2e8f0;
+    --ring: #bfdbfe;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --popover: #ffffff;
+    --popover-foreground: #1A1F2C;
+  }
+
+  /* Pediatrics Theme */
+  .theme-pediatrics {
+    /* Bright, playful colors */
+    --background: #ffffff;
+    --foreground: #1A1F2C;
+    --primary: #8b5cf6;
+    --primary-foreground: #ffffff;
+    --secondary: #e5deff;
+    --secondary-foreground: #5b21b6;
+    --accent: #c4b5fd;
+    --accent-foreground: #5b21b6;
+    --muted: #f5f3ff;
+    --muted-foreground: #7c3aed;
+    --card: #ffffff;
+    --card-foreground: #1A1F2C;
+    --border: #ddd6fe;
+    --input: #ddd6fe;
+    --ring: #a78bfa;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --popover: #ffffff;
+    --popover-foreground: #1A1F2C;
+  }
+
+  /* Cardiology Theme */
+  .theme-cardiology {
+    /* Red/warm tones */
+    --background: #ffffff;
+    --foreground: #1A1F2C;
+    --primary: #ef4444;
+    --primary-foreground: #ffffff;
+    --secondary: #fee2e2;
+    --secondary-foreground: #b91c1c;
+    --accent: #fecaca;
+    --accent-foreground: #b91c1c;
+    --muted: #fef2f2;
+    --muted-foreground: #ef4444;
+    --card: #ffffff;
+    --card-foreground: #1A1F2C;
+    --border: #fecaca;
+    --input: #fecaca;
+    --ring: #fca5a5;
+    --destructive: #b91c1c;
+    --destructive-foreground: #ffffff;
+    --popover: #ffffff;
+    --popover-foreground: #1A1F2C;
+  }
+
+  /* Psychiatry Theme */
+  .theme-psychiatry {
+    /* Calm blues and soft neutrals */
+    --background: #ffffff;
+    --foreground: #1A1F2C;
+    --primary: #0ea5e9;
+    --primary-foreground: #ffffff;
+    --secondary: #e0f2fe;
+    --secondary-foreground: #0369a1;
+    --accent: #bae6fd;
+    --accent-foreground: #0369a1;
+    --muted: #f0f9ff;
+    --muted-foreground: #0284c7;
+    --card: #ffffff;
+    --card-foreground: #1A1F2C;
+    --border: #bae6fd;
+    --input: #bae6fd;
+    --ring: #7dd3fc;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --popover: #ffffff;
+    --popover-foreground: #1A1F2C;
+  }
+
+  /* General Practice Theme */
+  .theme-general-practice {
+    /* Professional blues and neutrals */
+    --background: #ffffff;
+    --foreground: #1A1F2C;
+    --primary: #2563eb;
+    --primary-foreground: #ffffff;
+    --secondary: #dbeafe;
+    --secondary-foreground: #1e40af;
+    --accent: #bfdbfe;
+    --accent-foreground: #1e40af;
+    --muted: #eff6ff;
+    --muted-foreground: #3b82f6;
+    --card: #ffffff;
+    --card-foreground: #1A1F2C;
+    --border: #bfdbfe;
+    --input: #bfdbfe;
+    --ring: #93c5fd;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --popover: #ffffff;
+    --popover-foreground: #1A1F2C;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+}
